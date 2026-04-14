@@ -16,7 +16,7 @@ public class Status implements Comparable<Status> {
     private int id;
 
     @NotNull
-    private String descrption;
+    private String description;
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
@@ -34,12 +34,12 @@ public class Status implements Comparable<Status> {
         this.id = id;
     }
 
-    public String getDescrption() {
-        return descrption;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescrption(String descrption) {
-        this.descrption = descrption;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public Date getUpdateDate() {
